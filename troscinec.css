@@ -91,3 +91,46 @@ a:hover{
   color: red;
   text-decoration: underline;
 }
+
+
+
+@media screen and (max-width: 350px){
+  .header{
+    height: 155px;
+    background-color: #000;
+    font-size: 25px;
+    position: fixed;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .menu_header{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .wrapper{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  word-spacing: -2px;
+}
+.logo{
+  display: none;
+}
+ .container{
+  margin: 0 auto;
+  width: 90%;
+}
+.zag{
+  font-size: 52px;
+  padding-top: 50%;
+  text-align: center;
+  width: 100%;
+}
+}

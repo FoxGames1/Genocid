@@ -395,10 +395,26 @@ li{
   body{
     overflow-x: hidden;
   }
+  .header{
+    height: 155px;
+    background-color: #000;
+    font-size: 25px;
+    position: fixed;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .menu_header{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
   .wrapper{
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
+  overflow-y: auto;
   margin: 0 auto;
   width: 100vw;
   height: 100vh;
@@ -413,7 +429,7 @@ li{
 .zag{
   font-size: 54px;
   text-align: center;
-  padding-top: 31%;
+  padding-top: 50%;
   width: 100%;
 }
 .zag_2{
