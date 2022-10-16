@@ -101,7 +101,7 @@ a:hover{
   color: red;
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 320px){
   body{
     overflow-x: hidden;
   }
