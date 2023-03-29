@@ -81,7 +81,7 @@ a:hover{
 .zag{
   font-size: 64px;
   width: 100%;
-  padding-top: 10%;
+  padding-top: 15%;
   text-align: center;
 }
 .under{
@@ -161,13 +161,13 @@ a:hover{
 @media screen and (max-width: 540px){
   .zag{
     font-size: 50px;
-    padding-top: 70%;
+    padding-top: 100%;
   }
   .logo{
     display: none;
   }
     .header{
-    height: 205px;
+    height: 245px;
     background-color: #000;
     font-size: 31px;
     position: fixed;
@@ -202,10 +202,4 @@ a:hover{
 }
   
 }
-@media screen and (max-width: 720px){
 
-}
-
-@media screen and (max-width: 960px){}
-
-@media screen and (max-width: 1140px){}

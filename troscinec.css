@@ -52,7 +52,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .zag{
   font-size: 64px;
   text-align: center;
-  padding-top: 7%;
+  padding-top: 10%;
 }
 .under{
   font-size: 25px;
@@ -94,7 +94,7 @@ a:hover{
 
 
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 320px){
   .header{
     height: 155px;
     background-color: #000;
@@ -129,7 +129,49 @@ a:hover{
 }
 .zag{
   font-size: 52px;
-  padding-top: 50%;
+  padding-top: 55%;
+  padding-bottom: 5%;
+  text-align: center;
+  width: 100%;
+}
+}
+@media screen and (max-width: 768px){
+  .header{
+    height: 155px;
+    background-color: #000;
+    font-size: 25px;
+    position: fixed;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .menu_header{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .wrapper{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  word-spacing: -2px;
+}
+.logo{
+  display: none;
+}
+ .container{
+  margin: 0 auto;
+  width: 90%;
+}
+.zag{
+  font-size: 52px;
+  padding-top: 55%;
+  padding-bottom: 5%;
   text-align: center;
   width: 100%;
 }

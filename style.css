@@ -69,6 +69,7 @@ body{
   display: flex;
   justify-content: space-around;
   text-align: center;
+  align-items: center;
 }
 .logo{
   width: 5%;
@@ -88,7 +89,7 @@ a:hover{
 .zag{
   font-size: 64px;
   text-align: center;
-  padding-top: 7%;
+  padding-top: 10%;
   width: 100%;
 }
 .span{
